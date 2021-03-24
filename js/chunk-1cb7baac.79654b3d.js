@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-1cb7baac"],{"7fb8":function(a,t,n){},a7df:function(a,t,n){"use strict";var e=n("7fb8"),c=n.n(e);c.a},eb2a:function(a,t,n){"use strict";n.r(t);var e=function(){var a=this,t=a.$createElement,n=a._self._c||t;return n("div",{staticClass:"chat-wrapper"},[a._v(" group chat "+a._s(a.$route.params.chatId)+" ")])},c=[],r={name:"GroupChat",data:function(){return{}}},u=r,s=(n("a7df"),n("2877")),o=Object(s["a"])(u,e,c,!1,null,"340ef98e",null);t["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-1cb7baac.79654b3d.js.map
