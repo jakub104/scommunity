@@ -1,0 +1,56 @@
+[
+	{
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure libero sed aliquam impedit laborum quisquam quibusdam velit consequatur! Eius modi ea officia dolorem sapiente fuga non, doloremque quibusdam deserunt suscipit?",
+		"createdAt": "Tue Mar 02 2021 22:36:34 GMT+0100",
+		"senderId": "5678",
+		"_id": "4"
+	},
+	{
+		"content": "Co tam?",
+		"createdAt": "Tue Mar 02 2021 20:35:54 GMT+0100",
+		"senderId": "1234",
+		"_id": "3"
+	},
+	{
+		"content": "Hej",
+		"createdAt": "Tue Mar 02 2021 20:35:24 GMT+0100",
+		"senderId": "5678",
+		"_id": "2"
+	},
+	{
+		"content": "Jesteś?",
+		"createdAt": "Tue Mar 01 2021 20:30:54 GMT+0100",
+		"senderId": "1234",
+		"_id": "1"
+	},
+	{
+		"content": "Siema",
+		"createdAt": "Tue Mar 01 2021 22:35:54 GMT+0100",
+		"senderId": "1234",
+		"_id": "0"
+	},
+	{
+		"content": "Dobrze",
+		"createdAt": "Mon Jan 04 2021 12:37:34 GMT+0100",
+		"senderId": "1234",
+		"_id": "01"
+	},
+	{
+		"content": "Jak tam?",
+		"createdAt": "Mon Jan 04 2021 12:36:33 GMT+0100",
+		"senderId": "5678",
+		"_id": "02"
+	},
+	{
+		"content": "Hej",
+		"createdAt": "Mon Jan 04 2021 12:36:02 GMT+0100",
+		"senderId": "5678",
+		"_id": "03"
+	},
+	{
+		"content": "Hej",
+		"createdAt": "Mon Dec 28 2020 12:35:54 GMT+0100",
+		"senderId": "1234",
+		"_id": "04"
+	}
+]

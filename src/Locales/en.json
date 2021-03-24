@@ -1,0 +1,144 @@
+{
+	"forms": {
+		"login": {
+			"title": "Log In",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Password"
+			},
+			"forgotPassword": "Forgot your password?",
+			"submit": "Sign In",
+			"question": {
+				"content": "You don't have an account yet?",
+				"link": {
+					"content": "Register",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Registration",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Password"
+			},
+			"submit": "Register",
+			"question": {
+				"content": "Already have an account?",
+				"link": {
+					"content": "Sign In",
+					"to": "Login"
+				},
+				"alert": "First, choose your gender"
+			}
+		},
+		"errors": {
+			"auth/email-already-in-use": "Podany adres e-mail jest już używany!",
+			"auth/wrong-password": "Niepoprawne hasło!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Notifications",
+			"friend-request": {
+				"content": "sent you a friend request!",
+				"actions": {
+					"accept": "Attept",
+					"ignore": "Ignore"
+				}
+			}
+		},
+		"friends": {
+			"name": "Friends",
+			"empty": {
+				"owner": {
+					"content": "You don't have friends yet.",
+					"button": "Look for someone"
+				},
+				"guest": {
+					"content": "This person has no friends yet.",
+					"button": "Invite"
+				}
+			},
+			"search": "Search friends..."
+		},
+		"groups": {
+			"name": "Groups",
+			"empty": {
+				"owner": {
+					"content": "You don't belong to any group.",
+					"button": "Look for someone"
+				},
+				"guest": {
+					"content": "This person does not belong to any group.",
+					"button": "Invite to yourself"
+				}
+			},
+			"search": "Search among groups..."
+		},
+		"info": {
+			"name": "Information",
+			"gender": {
+				"name": "Sex",
+				"variants": {
+					"male": "male",
+					"female": "female",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Language",
+				"variants": {
+					"pl": "polish",
+					"en": "english",
+					"de": "german",
+					"ru": "russian",
+					"fr": "french",
+					"es": "spanish",
+					"it": "italian",
+					"cz": "czech"
+				}
+			},
+			"role": {
+				"name": "Permissions",
+				"variants": {
+					"user": "user",
+					"admin": "admin"
+				}
+			},
+			"interests": {
+				"name": "Interests",
+				"add": "Add interest...",
+				"variants": {
+					"astronomy": "astronomy 🪐",
+					"reading": "reading 📖",
+					"spirituality": "spirituality 🙏",
+					"ecology": "ecology 🌍",
+					"photography": "photography 📷",
+					"cooking": "cooking 🍴",
+					"computer-science": "computer science 🖥️",
+					"investing": "investing 📈",
+					"bodybuilding": "bodybuilding 🏋️",
+					"diy": "diy 🔨",
+					"music": "music 🎵",
+					"programming": "programming 💻",
+					"psychology": "psychology 🧠",
+					"relations": "relations 🙌",
+					"development": "development 📚",
+					"sport": "sport ⚽",
+					"veganism": "veganism 🌱",
+					"health": "health 💪",
+					"animals": "animals 🐻"
+				}
+			}
+		},
+		"activity": {
+			"name": "Activity",
+			"add": {
+				"placeholder": "How are you, {nick}?",
+				"submit": "Publish"
+			},
+			"joined": "{nick} joined the Scommunity!"
+		}
+	}
+}

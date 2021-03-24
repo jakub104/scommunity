@@ -1,0 +1,144 @@
+{
+	"forms": {
+		"login": {
+			"title": "Přihlašovací",
+			"inputs": {
+				"nick": "Nicku",
+				"password": "Heslo"
+			},
+			"forgotPassword": "Zapomněli jste heslo?",
+			"submit": "Přihlásit se",
+			"question": {
+				"content": "Ještě nemáte účet?",
+				"link": {
+					"content": "Registrovat",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Registrace",
+			"inputs": {
+				"nick": "Nicku",
+				"password": "Heslo"
+			},
+			"submit": "Registrovat",
+			"question": {
+				"content": "Máte již účet?",
+				"link": {
+					"content": "Přihlásit se",
+					"to": "Login"
+				}
+			},
+			"alert": "Nejprve vyberte své pohlaví"
+		},
+		"errors": {
+			"auth/email-already-in-use": "Zadaná e-mailová adresa se již používá!",
+			"auth/wrong-password": "Nesprávné heslo!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Oznámení",
+			"friend-request": {
+				"content": "Poslal(a) vám pozvání do skupiny přátel!",
+				"actions": {
+					"accept": "Přijmout",
+					"ignore": "Reptat"
+				}
+			}
+		},
+		"friends": {
+			"name": "Přátelé",
+			"empty": {
+				"owner": {
+					"content": "Ještě nemáte přátele.",
+					"button": "Koukni se"
+				},
+				"guest": {
+					"content": "Tato osoba ještě nemá žádné přátele.",
+					"button": "Pozvěte ji"
+				}
+			},
+			"search": "Hledat mezi přáteli..."
+		},
+		"groups": {
+			"name": "Skupina",
+			"empty": {
+				"owner": {
+					"content": "Nepatříte do žádné skupiny.",
+					"button": "Podívejte se na něčí"
+				},
+				"guest": {
+					"content": "Tato osoba nepatří do žádné skupiny.",
+					"button": "Pozvat"
+				}
+			},
+			"search": "Hledat mezi skupinami..."
+		},
+		"info": {
+			"name": "Informace",
+			"interests": {
+				"name": "Zájmy",
+				"add": "Přidat zájem o...",
+				"variants": {
+					"astronomy": "astronomie 🪐",
+					"reading": "čtení 📖",
+					"spirituality": "duchovno 🙏",
+					"ecology": "ekologie 🌍",
+					"photography": "fotografování 📷",
+					"cooking": "vaření 🍴",
+					"computer-science": "informatika 🖥️",
+					"investing": "vložení 📈",
+					"bodybuilding": "kulturista 🏋️",
+					"diy": "diligence 🔨",
+					"music": "hudba 🎵",
+					"programming": "programování 💻",
+					"psychology": "psychologie 🧠",
+					"relations": "vztahy 🙌",
+					"development": "rozvoj 📚",
+					"sport": "sport ⚽",
+					"veganism": "veganismus 🌱",
+					"health": "zdraví 💪",
+					"animals": "domácí mazlíčci 🐻"
+				}
+			},
+			"gender": {
+				"name": "Sex",
+				"variants": {
+					"male": "muž",
+					"female": "žena",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Jazyk",
+				"variants": {
+					"pl": "polština",
+					"en": "angličtina",
+					"de": "němec",
+					"ru": "ruština",
+					"fr": "francouzština",
+					"es": "španělština",
+					"it": "italština",
+					"cz": "čeština"
+				}
+			},
+			"role": {
+				"name": "Oprávnění",
+				"variants": {
+					"user": "uživatel",
+					"admin": "správce"
+				}
+			}
+		},
+		"activity": {
+			"name": "Aktivita",
+			"add": {
+				"placeholder": "Jak se máte, {nick}?",
+				"submit": "Publikovat"
+			},
+			"joined": "{nick} připojil(a) se k Scommunity!"
+		}
+	}
+}

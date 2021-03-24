@@ -1,0 +1,145 @@
+{
+	"forms": {
+		"login": {
+			"title": "Anmeldung",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Passwort"
+			},
+			"forgotPassword": "Hast du dein Passwort vergessen?",
+			"submit": "Anmelden",
+			"question": {
+				"content": "Sie haben noch keinen Account?",
+				"link": {
+					"content": "Registrieren",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Anmeldung",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Passwort"
+			},
+			"submit": "Registrieren",
+			"question": {
+				"content": "Sie haben bereits ein Konto?",
+				"link": {
+					"content": "Anmelden",
+					"to": "Login"
+				}
+			},
+			"alert": "Wählen Sie zunächst Ihr Geschlecht"
+		},
+		"errors": {
+			"auth/email-already-in-use": "Die angegebene E-Mail-Adresse wird bereits verwendet!",
+			"auth/wrong-password": "Falsches Passwort!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Benachrichtigungen",
+			"friend-request": {
+				"content": "hat dir eine Freundschaftsanfrage geschickt!",
+				"actions": {
+					"accept": "Akzeptieren",
+					"ignore": "Murren"
+				}
+			}
+		},
+		"friends": {
+			"name": "Freunde",
+			"empty": {
+				"owner": {
+					"content": "Du hast noch keine Freunde.",
+					"button": "Suche jemanden"
+				},
+				"guest": {
+					"content": "Diese Person hat noch keine Freunde.",
+					"button": "Lade Sie ein"
+				}
+			},
+			"search": "Suche nach Freunden..."
+		},
+		"groups": {
+			"name": "Gruppe",
+			"empty": {
+				"owner": {
+					"content": "Sie gehören keiner Gruppe an.",
+					"button": "Suchen Sie nach einigen"
+				},
+				"guest": {
+					"content": "Diese Person gehört nicht zu einer Gruppe.",
+					"button": "Einladen"
+				}
+			},
+			"search": "Suche unter Gruppen ..."
+		},
+		"info": {
+			"name": "Information",
+			"nick": "nick",
+			"interests": {
+				"name": "Interessen",
+				"add": "Fügen Sie Ihr Interesse hinzu...",
+				"variants": {
+					"astronomy": "Astronomie 🪐",
+					"reading": "Lesen 📖",
+					"spirituality": "Spiritualität 🙏",
+					"ecology": "Ökologie 🌍",
+					"photography": "Fotografie 📷",
+					"cooking": "Kochen 🍴",
+					"computer-science": "Informatik 🖥️",
+					"investing": "Einfügen 📈",
+					"bodybuilding": "Bodybuilder 🏋️",
+					"diy": "Sorgfalt 🔨",
+					"music": "Musik 🎵",
+					"programming": "Programmierung 💻",
+					"psychology": "Psychologie 🧠",
+					"relations": "Beziehungen 🙌",
+					"development": "Entwicklung 📚",
+					"sport": "Sport ⚽",
+					"veganism": "Veganismus 🌱",
+					"health": "Gesundheit 💪",
+					"animals": "Haustiere 🐻"
+				}
+			},
+			"gender": {
+				"name": "Sex",
+				"variants": {
+					"male": "Mann",
+					"female": "Frau",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Sprache",
+				"variants": {
+					"pl": "Polieren",
+					"en": "Englisch",
+					"de": "Deutsche",
+					"ru": "Russisch",
+					"fr": "Französisch",
+					"es": "Spanisch",
+					"it": "Italienisch",
+					"cz": "Tschechisch"
+				}
+			},
+			"role": {
+				"name": "Berechtigungen",
+				"variants": {
+					"user": "Nutzer",
+					"admin": "Administrator"
+				}
+			}
+		},
+		"activity": {
+			"name": "Aktivität",
+			"add": {
+				"placeholder": "Wie geht es Ihnen, {nick}?",
+				"submit": "Veröffentlichen"
+			},
+			"joined": "{nick} ist der Scommunity beigetreten!"
+		}
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"forms": {
+		"login": {
+			"title": "Š'identifier",
+			"inputs": {
+				"nick": "Pseudo",
+				"password": "Passe"
+			},
+			"forgotPassword": "Mot de passe oublié?",
+			"submit": "Se connecter",
+			"question": {
+				"content": "Vous n'avez pas encore de compte?",
+				"link": {
+					"content": "S'inscrire",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Enregistrement",
+			"inputs": {
+				"nick": "Pseudo",
+				"password": "Passe"
+			},
+			"submit": "S'inscrire",
+			"question": {
+				"content": "Vous avez déjà un compte?",
+				"link": {
+					"content": "Connectez-vous à l'application",
+					"to": "Login"
+				}
+			},
+			"alert": "Choisissez d'abord votre sexe"
+		},
+		"errors": {
+			"auth/email-already-in-use": "L'adresse e-mail fournie est déjà utilisée!",
+			"auth/wrong-password": "Mot de passe incorrect!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Notifications",
+			"friend-request": {
+				"content": "vous a envoyé une invitation à rejoindre un groupe d'amis!",
+				"actions": {
+					"accept": "J'accepte",
+					"ignore": "Plaindre"
+				}
+			}
+		},
+		"friends": {
+			"name": "Amis",
+			"empty": {
+				"owner": {
+					"content": "Vous n'avez pas encore d'amis.",
+					"button": "Voir"
+				},
+				"guest": {
+					"content": "Cette personne n'a pas encore d'amis.",
+					"button": "Invite-la"
+				}
+			},
+			"search": "Rechercher des amis..."
+		},
+		"groups": {
+			"name": "Grouper",
+			"empty": {
+				"owner": {
+					"content": "Vous n'appartenez à aucun groupe.",
+					"button": "Chercher"
+				},
+				"guest": {
+					"content": "Cette personne n'appartient à aucun groupe.",
+					"button": "Inviter"
+				}
+			},
+			"search": "Recherche de groupes..."
+		},
+		"info": {
+			"name": "Informations",
+			"interests": {
+				"name": "Intérêts",
+				"add": "Ajoutez votre intérêt...",
+				"variants": {
+					"astronomy": "astronomie 🪐",
+					"reading": "en train de lire 📖",
+					"spirituality": "spiritualité 🙏",
+					"ecology": "écologie 🌍",
+					"photography": "la photographie 📷",
+					"cooking": "cuisine 🍴",
+					"computer-science": "informatique 🖥️",
+					"investing": "insertion 📈",
+					"bodybuilding": "bodybuilder 🏋️",
+					"diy": "diligence 🔨",
+					"music": "musique 🎵",
+					"programming": "programmation 💻",
+					"psychology": "psychologie 🧠",
+					"relations": "rapports 🙌",
+					"development": "développement 📚",
+					"sport": "sport ⚽",
+					"veganism": "veganisme 🌱",
+					"health": "santé 💪",
+					"animals": "animaux domestiques 🐻"
+				}
+			},
+			"gender": {
+				"name": "Sexe",
+				"variants": {
+					"male": "homme",
+					"female": "femme",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Langue",
+				"variants": {
+					"pl": "polonais",
+					"en": "anglais",
+					"de": "allemand",
+					"ru": "russe",
+					"fr": "français",
+					"es": "espagnol",
+					"it": "italien",
+					"cz": "tchèque"
+				}
+			},
+			"role": {
+				"name": "Autorisation",
+				"variants": {
+					"user": "utilisateur",
+					"admin": "administrateur"
+				}
+			}
+		},
+		"activity": {
+			"name": "Activité",
+			"add": {
+				"placeholder": "Comment allez-vous, {nick}?",
+				"submit": "Publier"
+			},
+			"joined": "{nick} a rejoint la Scommunity!"
+		}
+	}
+}

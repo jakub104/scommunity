@@ -1,0 +1,144 @@
+{
+	"forms": {
+		"login": {
+			"title": "Accesso",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Password"
+			},
+			"forgotPassword": "Hai dimenticato la password?",
+			"submit": "Accedi",
+			"question": {
+				"content": "Non hai ancora un account?",
+				"link": {
+					"content": "Registrati",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Registrazione",
+			"inputs": {
+				"nick": "Nick",
+				"password": "Password"
+			},
+			"submit": "Registrati",
+			"question": {
+				"content": "Hai già un account?",
+				"link": {
+					"content": "Accedi",
+					"to": "Login"
+				}
+			},
+			"alert": "Prima scegli il tuo sesso"
+		},
+		"errors": {
+			"auth/email-already-in-use": "L'indirizzo e-mail fornito è già in uso!",
+			"auth/wrong-password": "Password errata!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Notifiche",
+			"friend-request": {
+				"content": "ti ha inviato un invito a un gruppo di amici!",
+				"actions": {
+					"accept": "Accettare",
+					"ignore": "Brontolare"
+				}
+			}
+		},
+		"friends": {
+			"name": "Amici",
+			"empty": {
+				"owner": {
+					"content": "Non hai ancora amici.",
+					"button": "Guarda"
+				},
+				"guest": {
+					"content": "Questa persona non ha ancora amici.",
+					"button": "invita lei"
+				}
+			},
+			"search": "Cerca amici...."
+		},
+		"groups": {
+			"name": "Gruppo",
+			"empty": {
+				"owner": {
+					"content": "Non appartieni a nessun gruppo.",
+					"button": "Cerca alcuni"
+				},
+				"guest": {
+					"content": "Questa persona non appartiene a nessun gruppo.",
+					"button": "Invitare"
+				}
+			},
+			"search": "Cerca Gruppi..."
+		},
+		"info": {
+			"name": "Informazione",
+			"interests": {
+				"name": "Interessi",
+				"add": "Aggiungi il tuo interesse...",
+				"variants": {
+					"astronomy": "astronomia 🪐",
+					"reading": "lettura 📖",
+					"spirituality": "spiritualità 🙏",
+					"ecology": "ecologia 🌍",
+					"photography": "fotografia 📷",
+					"cooking": "cucinando 🍴",
+					"computer-science": "informatica 🖥️",
+					"investing": "inserimento 📈",
+					"bodybuilding": "bodybuilder 🏋️",
+					"diy": "diligenza 🔨",
+					"music": "musica 🎵",
+					"programming": "programmazione 💻",
+					"psychology": "psicologia 🧠",
+					"relations": "relazioni 🙌",
+					"development": "sviluppo 📚",
+					"sport": "sport ⚽",
+					"veganism": "veganismo 🌱",
+					"health": "salute 💪",
+					"animals": "animali domestici 🐻"
+				}
+			},
+			"gender": {
+				"name": "Sesso",
+				"variants": {
+					"male": "uomo",
+					"female": "donna",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Linguaggio",
+				"variants": {
+					"pl": "polacco",
+					"en": "inglese",
+					"de": "tedesco",
+					"ru": "russo",
+					"fr": "francese",
+					"es": "spagnolo",
+					"it": "italiano",
+					"cz": "ceco"
+				}
+			},
+			"role": {
+				"name": "Autorizzazioni",
+				"variants": {
+					"user": "utente",
+					"admin": "amministratore"
+				}
+			}
+		},
+		"activity": {
+			"name": "Attività",
+			"add": {
+				"placeholder": "Come stai, {nick}?",
+				"submit": "Pubblicare"
+			},
+			"joined": "{nick} è entrata a far parte della Scommunity!"
+		}
+	}
+}

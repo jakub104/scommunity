@@ -1,0 +1,144 @@
+{
+	"forms": {
+		"login": {
+			"title": "Iniciar sesión",
+			"inputs": {
+				"nick": "Mella",
+				"password": "Contraseña"
+			},
+			"forgotPassword": "¿Olvidaste tu contraseña?",
+			"submit": "Iniciar sesión",
+			"question": {
+				"content": "¿Aún no tienes una cuenta?",
+				"link": {
+					"content": "Registrarse",
+					"to": "Register"
+				}
+			}
+		},
+		"register": {
+			"title": "Registro",
+			"inputs": {
+				"nick": "Mella",
+				"password": "Contraseña"
+			},
+			"submit": "Regístrese",
+			"question": {
+				"content": "¿Ya tienes una cuenta?",
+				"link": {
+					"content": "Iniciar sesión",
+					"to": "Login"
+				},
+				"alert": "Primero, elige tu género"
+			}
+		},
+		"errors": {
+			"auth/email-already-in-use": "¡La dirección de correo electrónico proporcionada ya está en uso!",
+			"auth/wrong-password": "¡Contraseña incorrecta!"
+		}
+	},
+	"profile": {
+		"notifications": {
+			"name": "Notificaciones",
+			"friend-request": {
+				"content": "¡Te envió una invitación a un grupo de amigos!",
+				"actions": {
+					"accept": "Aceptar",
+					"ignore": "Queja"
+				}
+			}
+		},
+		"friends": {
+			"name": "Amigos",
+			"empty": {
+				"owner": {
+					"content": "No tienes amigos todavía.",
+					"button": "Mirar"
+				},
+				"guest": {
+					"content": "Esta persona aún no tiene amigos.",
+					"button": "Invitarla"
+				}
+			},
+			"search": "Busca entre tus amigos..."
+		},
+		"groups": {
+			"name": "Grupo",
+			"empty": {
+				"owner": {
+					"content": "No perteneces a ningún grupo.",
+					"button": "Buscar algunos"
+				},
+				"guest": {
+					"content": "Esta persona no pertenece a ningún grupo.",
+					"button": "Invitación"
+				}
+			},
+			"search": "Buscar entre grupos..."
+		},
+		"info": {
+			"name": "Información",
+			"interests": {
+				"name": "Intereses",
+				"add": "Añadir interés en...",
+				"variants": {
+					"astronomy": "astronomía 🪐",
+					"reading": "leyendo 📖",
+					"spirituality": "espiritualidad 🙏",
+					"ecology": "ecología 🌍",
+					"photography": "fotografía 📷",
+					"cooking": "cocinando 🍴",
+					"computer-science": "informático 🖥️",
+					"investing": "inserción 📈",
+					"bodybuilding": "carrocero 🏋️",
+					"diy": "diligencia 🔨",
+					"music": "música 🎵",
+					"programming": "programación 💻",
+					"psychology": "psicología 🧠",
+					"relations": "relaciones 🙌",
+					"development": "desarrollo 📚",
+					"sport": "deporte ⚽",
+					"veganism": "veganismo 🌱",
+					"health": "salud 💪",
+					"animals": "mascotas 🐻"
+				}
+			},
+			"gender": {
+				"name": "Sexo",
+				"variants": {
+					"male": "hombre",
+					"female": "mujer",
+					"unknown": "-"
+				}
+			},
+			"lang": {
+				"name": "Idioma",
+				"variants": {
+					"pl": "polaco",
+					"en": "inglés",
+					"de": "alemán",
+					"ru": "ruso",
+					"fr": "francés",
+					"es": "español",
+					"it": "italiano",
+					"cz": "checo"
+				}
+			},
+			"role": {
+				"name": "Permisos",
+				"variants": {
+					"user": "usuario",
+					"admin": "administrador"
+				}
+			}
+		},
+		"activity": {
+			"name": "Actividad",
+			"add": {
+				"placeholder": "Cómo estás, {nick}?",
+				"submit": "Publicar"
+			},
+			"joined": "¡{nick} se unió a la Scommunity!"
+		}
+	}
+}
